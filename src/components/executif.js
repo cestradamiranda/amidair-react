@@ -9,33 +9,33 @@ class Executif extends Component {
             <Panel header="Executif" bsStyle="primary">
             <Grid>
     <Row>
-    <Col xs={6} md={4}>
-      <Thumbnail src="/assets/thumbnaildiv.png" alt="242x200">
+    <Col xs={6} md={3}>
+      <Thumbnail src="/assets/thumbnaildiv.png" alt="200x200">
         <h3>Thumbnail label</h3>
         <p>Description</p>
         <p>
-          <Button bsStyle="primary">Button</Button>&nbsp;
-          <Button bsStyle="default">Button</Button>
+          <Button bsStyle="primary">Button</Button> 
+          
         </p>
       </Thumbnail>
     </Col>
-    <Col xs={6} md={4}>
-      <Thumbnail src="/assets/thumbnaildiv.png" alt="242x200">
+    <Col xs={6} md={3}>
+      <Thumbnail src="/assets/thumbnaildiv.png" alt="200x200">
         <h3>Thumbnail label</h3>
         <p>Description</p>
         <p>
-          <Button bsStyle="primary">Button</Button>&nbsp;
-          <Button bsStyle="default">Button</Button>
+          <Button bsStyle="primary">Button</Button> 
+        
         </p>
       </Thumbnail>
     </Col>
-    <Col xs={6} md={4}>
-      <Thumbnail src="/assets/thumbnaildiv.png" alt="242x200">
+    <Col  xs={6} md={3}>
+      <Thumbnail src="/assets/thumbnaildiv.png" alt="200x200">
         <h3>Thumbnail label</h3>
         <p>Description</p>
         <p>
-          <Button bsStyle="primary">Button</Button>&nbsp;
-          <Button bsStyle="default">Button</Button>
+          <Button bsStyle="primary">Button</Button> 
+           
         </p>
       </Thumbnail>
     </Col>
