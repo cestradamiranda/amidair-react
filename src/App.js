@@ -12,10 +12,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-          
+         
         <Jumbo/>
-       
         <Header/>
+      
         <div className="container">
         <BodyComponent/>
         </div>
