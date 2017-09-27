@@ -11,16 +11,13 @@ import BodyComponent from './components/bodyComponent';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="container">
          
         <Jumbo/>
         <Header/>
-      
-        <div className="container">
+         
         <BodyComponent/>
-        </div>
-       
-
+      
       </div>
     );
   }
