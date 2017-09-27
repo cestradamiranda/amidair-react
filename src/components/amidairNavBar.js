@@ -23,11 +23,7 @@ class AmidairNavBar extends Component {
         <div className="App-navbar">
            
         <Navbar>
-          <Navbar.Header className="Test">
-            <Navbar.Brand>
-              <a href="#" onClick={this.handleClick}>AMIDAIR {this.state.isToggleOn ? 'Logued Off' : 'Carlos Logued On'}</a>
-            </Navbar.Brand>
-          </Navbar.Header>
+          
           <Nav>
             <NavItem eventKey={1} href="/">Accueil</NavItem>
             <NavDropdown eventKey={2} title="Nous Joindre" id="basic-nav-dropdown">
@@ -47,6 +43,11 @@ class AmidairNavBar extends Component {
             </NavDropdown>
             <NavItem eventKey={4} href="#">Multimedia</NavItem>
           </Nav>
+          
+            <Navbar.Brand>
+              <a href="#" onClick={this.handleClick}>AMIDAIR {this.state.isToggleOn ? 'Logued Off' : 'Carlos Logued On'}</a>
+            </Navbar.Brand>
+          
         </Navbar>
         </div>
       );
