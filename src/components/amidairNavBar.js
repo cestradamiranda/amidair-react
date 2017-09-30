@@ -19,9 +19,9 @@ class AmidairNavBar extends Component {
     
   }
 
-  toggleExecutif() {
-     
-    
+  handleMenuClick = () => {
+//  var temp = this.SelectExecutif.value;
+    this.props.onSelectMenuItem(true);       
   }
  
   render() {
@@ -34,7 +34,7 @@ class AmidairNavBar extends Component {
           <Nav>
             <NavItem eventKey={1} href="/">Accueil</NavItem>
             <NavDropdown eventKey={2} title="Nous Joindre" id="basic-nav-dropdown">
-              <MenuItem eventKey={2.1} onClick={this.toggleExecutif}>Executif</MenuItem>
+              <MenuItem eventKey={2.1}  ref={(ref) => this.SelectExecutif = ref} onClick={this.handleMenuClick}>Executif</MenuItem>
               <MenuItem eventKey={2.2}>Formulaires</MenuItem>
               <MenuItem eventKey={2.3}>Terrain</MenuItem>
             </NavDropdown>

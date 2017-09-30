@@ -5,16 +5,15 @@ class BodyComponent extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      showExecutif: true,
-      newShow: this.props.show
-    }
+      showExecutif: this.props.show
+       }
   }
   render() {
     return (
 
       <div>
      
-         <Executif show={this.state.newShow}/>
+         <Executif show={this.state.showExecutif}/>
      
       </div>
      
