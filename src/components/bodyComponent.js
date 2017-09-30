@@ -2,20 +2,20 @@ import React, { Component } from 'react';
  import Executif from './executif.js';
 
 class BodyComponent extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
-      childVisible: false
+      showExecutif: true,
+      newShow: this.props.show
     }
   }
   render() {
     return (
+
       <div>
-        {
-          this.state.childVisible
-            ? <Executif />
-            : null
-        }
+     
+         <Executif show={this.state.newShow}/>
+     
       </div>
      
         

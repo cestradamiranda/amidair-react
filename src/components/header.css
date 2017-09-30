@@ -1,5 +1,4 @@
-.App-header {
-    /* background-image: url("./banner-1563536_1280.jpg"); */
-    height: 150px;
-  /* padding: 20px;*/
-  }
+.jumbotron{
+    margin-bottom: 0px!important ;
+    border-radius: 0px!important;
+}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Jumbotron } from 'react-bootstrap';
- 
+import './header.css';
 import logo from './Amidair_logo_small.png';
 
 

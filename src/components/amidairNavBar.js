@@ -5,15 +5,22 @@ import './amidairNavBar.css';
 class AmidairNavBar extends Component {
    constructor(props) {
     super(props);
-    this.state = { isToggleOn: true };
+    this.state = {isToggleOn: true, showExecutif: false};
     // This binding is necessary to make `this` work in the callback
     this.handleClick = this.handleClick.bind(this);
+   
   }
   
   handleClick() {
     this.setState(prevState => ({
-      isToggleOn: !prevState.isToggleOn
+      isToggleOn: !prevState.isToggleOn,
+      showExecutif: !prevState.showExecutif
     }));
+    
+  }
+
+  toggleExecutif() {
+     
     
   }
  
@@ -27,7 +34,7 @@ class AmidairNavBar extends Component {
           <Nav>
             <NavItem eventKey={1} href="/">Accueil</NavItem>
             <NavDropdown eventKey={2} title="Nous Joindre" id="basic-nav-dropdown">
-              <MenuItem eventKey={2.1}>Executif</MenuItem>
+              <MenuItem eventKey={2.1} onClick={this.toggleExecutif}>Executif</MenuItem>
               <MenuItem eventKey={2.2}>Formulaires</MenuItem>
               <MenuItem eventKey={2.3}>Terrain</MenuItem>
             </NavDropdown>
