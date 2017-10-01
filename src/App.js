@@ -6,6 +6,8 @@ import 'font-awesome/css/font-awesome.css';
 import Jumbo from './components/jumbotron';
 import BodyComponent from './components/bodyComponent';
 import AmidairNavBar from './components/amidairNavBar';
+import Footer from './components/footer';
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -38,7 +40,11 @@ class App extends Component {
        
         </main>
 
-        <footer>I'm a 30px tall footer</footer>
+       <footer>
+         <Footer/>  
+       </footer>
+       
+       
 
       </div>
     );

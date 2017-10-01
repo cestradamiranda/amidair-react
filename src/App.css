@@ -11,17 +11,9 @@ main {
   flex: 1;
 }
 
- 
 body {
   margin: 0;
 }
- 
 
-footer {
-  background-color:#F80707;
-  color:white;
-  
-  position:absolute;bottom:0;
-}
 
 
